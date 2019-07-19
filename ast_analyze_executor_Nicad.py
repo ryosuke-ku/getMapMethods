@@ -23,56 +23,54 @@ class rdict(dict):
 
 
 if __name__ == '__main__':
-    getNicadPath = []
-    for n in range(351):
-        name = 'C:/Users/ryosuke-ku/Desktop/SCRAPING/Method_Scraping/xml_scraping/NicadOutputFile/Nicad_' + str(n+1) + '.java'
-        getNicadPath.append(name)
-
-    # print(getNicadPath)
-
-    NicadTest = open(r'TestPath.txt','r',encoding="utf-8_sig")
+    NicadTest = open(r'TestPath_flink.txt','r',encoding="utf-8_sig")
     NicadTestPath = NicadTest.readlines()
     NtPath = [Ntline.replace('\n', '') for Ntline in NicadTestPath]
 
+    getNicadPath = []
+    for n in range(len(NtPath)):
+        name = 'C:/Users/ryosuke-ku/Desktop/SCRAPING/Method_Scraping/xml_scraping/NicadOutputFile_flink/Nicad_flink' + str(n+1) + '.java'
+        getNicadPath.append(name)
+
     # print(NtPath)
 
-    Testmethodcalls_list = AstProcessorTestMethodCall(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[203]) #target_file_path(テストファイル)内のメソッド名をすべて取得
-    Productionmethods_list = AstProcessorProduction(None, BasicInfoListener()).execute(getNicadPath[203]) #プロダクションファイル内のメソッド名をすべて取得
-    Testmethods_list = AstProcessorTest(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[203]) #target_file_path(テストファイル)内のメソッド呼び出しをすべて取得
+    # Testmethodcalls_list = AstProcessorTestMethodCall(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[203]) #target_file_path(テストファイル)内のメソッド名をすべて取得
+    # Productionmethods_list = AstProcessorProduction(None, BasicInfoListener()).execute(getNicadPath[203]) #プロダクションファイル内のメソッド名をすべて取得
+    # Testmethods_list = AstProcessorTest(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[203]) #target_file_path(テストファイル)内のメソッド呼び出しをすべて取得
 
-    # print(Testmethodcalls_list)
+    # # print(Testmethodcalls_list)
+    # # print('---------------------------------------------------------------------------------------------------------------------')
+    # print(Productionmethods_list)
     # print('---------------------------------------------------------------------------------------------------------------------')
-    print(Productionmethods_list)
-    print('---------------------------------------------------------------------------------------------------------------------')
-    print(Testmethods_list)
+    # print(Testmethods_list)
 
-    # print(Testmethodcalls_list.keys())
-    # print(Testmethodcalls_list['testShouldAppendRecessivePluginGroupIds'])
-    cnt = 1
-    methodmapcall = defaultdict(list)
-    for k in Testmethodcalls_list:
-        # print(k)
-        for l in Testmethodcalls_list[k]:
-            for m in l:
-                methodcall = str(cnt) + ':' + m
-                # print(methodcall)
-                methodmapcall[methodcall].append(k)
-                cnt+=1
+    # # print(Testmethodcalls_list.keys())
+    # # print(Testmethodcalls_list['testShouldAppendRecessivePluginGroupIds'])
+    # cnt = 1
+    # methodmapcall = defaultdict(list)
+    # for k in Testmethodcalls_list:
+    #     # print(k)
+    #     for l in Testmethodcalls_list[k]:
+    #         for m in l:
+    #             methodcall = str(cnt) + ':' + m
+    #             # print(methodcall)
+    #             methodmapcall[methodcall].append(k)
+    #             cnt+=1
 
 
-    # print(methodmapcall)
-    print(len(methodmapcall))
-    # print(methodmapcall['137:clone.getRepositories()'][0])
-    rd = rdict(methodmapcall)
+    # # print(methodmapcall)
+    # print(len(methodmapcall))
+    # # print(methodmapcall['137:clone.getRepositories()'][0])
+    # rd = rdict(methodmapcall)
     
 
-    try:
-        key = Productionmethods_list[0]
-        print(Productionmethods_list[0])
-        print(rd["^(?=.*" + key + ").*$"])
-    except IndexError:
-        print('Error')
-        pass
+    # try:
+    #     key = Productionmethods_list[0]
+    #     print(Productionmethods_list[0])
+    #     print(rd["^(?=.*" + key + ").*$"])
+    # except IndexError:
+    #     print('Error')
+    #     pass
      
         
 
@@ -81,7 +79,7 @@ if __name__ == '__main__':
     notest = 0
     hastest = 0
     count = 0
-    for i in range(351): 
+    for i in range(len(NtPath)): 
         Testmethodcalls_list = AstProcessorTestMethodCall(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[i]) #target_file_path(テストファイル)内のメソッド名をすべて取得
         Productionmethods_list = AstProcessorProduction(None, BasicInfoListener()).execute(getNicadPath[i]) #プロダクションファイル内のメソッド名をすべて取得
         Testmethods_list = AstProcessorTest(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[i]) #target_file_path(テストファイル)内のメソッド呼び出しをすべて取得
@@ -131,8 +129,8 @@ if __name__ == '__main__':
         print('---------------------------------------------------------------------------------------------------------------------')
         count += 1
     
-    print('hastest : ' + str(hastest))
-    print('notest : ' + str(notest))
+    print('hastest : ' + str(hastest) + '(' + str(round(hastest/count*100,1)) + ')')
+    print('notest : ' + str(notest)  + '(' + str(round(notest/count*100,1)) + ')')
     print('Total : ' + str(count))
 
 
