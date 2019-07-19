@@ -1,0 +1,8 @@
+<プロダクションコードPath>C:/Users/ryosuke-ku/Desktop/SCRAPING/Method_Scraping/xml_scraping/NicadOutputFile_flink/Nicad_flink1.java
+<テストコードPath>C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/flink/flink-runtime-web/src/test/java/org/apache/flink/runtime/webmonitor/history/HistoryServerStaticFileServerHandlerTest.java
+<テストメソッド>
+['testRespondWithFile']
+<プロダクションメソッド>
+respondWithFile
+[]
+---------------------------------------------------------------------------------------------------------------------
