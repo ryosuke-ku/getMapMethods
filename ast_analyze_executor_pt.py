@@ -33,11 +33,37 @@ if __name__ == '__main__':
         name = 'C:/Users/ryosuke-ku/Desktop/SCRAPING/Method_Scraping/xml_scraping/NicadOutputFile/Nicad_' + str(n+1) + '.java'
         getNicadPath.append(name)
 
-    print(getNicadPath)
+    # print(getNicadPath)
 
-    production = open(r'TestPath.txt','r',encoding="utf-8_sig")
-    ProductionPath = production.readlines()
-    PPath = [Pline.replace('\n', '') for Pline in ProductionPath]
+    NicadTest = open(r'TestPath.txt','r',encoding="utf-8_sig")
+    NicadTestPath = NicadTest.readlines()
+    NtPath = [Ntline.replace('\n', '') for Ntline in NicadTestPath]
+
+    # print(NtPath)
+
+    Testmethodcalls_list = AstProcessorTestMethodCall(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[0]) #target_file_path(テストファイル)内のメソッド名をすべて取得
+    Productionmethods_list = AstProcessorProduction(None, BasicInfoListener()).execute(getNicadPath[0]) #プロダクションファイル内のメソッド名をすべて取得
+    Testmethods_list = AstProcessorTest(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[0]) #target_file_path(テストファイル)内のメソッド呼び出しをすべて取得
+
+    print(Testmethodcalls_list)
+    print('---------------------------------------------------------------------------------------------------------------------')
+    print(Productionmethods_list)
+    print('---------------------------------------------------------------------------------------------------------------------')
+    print(Testmethods_list)
+
+
+
+    # for i in range(351):
+    #     Testmethodcalls_list = AstProcessorTestMethodCall(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[i]) #target_file_path(テストファイル)内のメソッド名をすべて取得
+    #     Productionmethods_list = AstProcessorProduction(None, BasicInfoListener()).execute(getNicadPath[i]) #プロダクションファイル内のメソッド名をすべて取得
+    #     Testmethods_list = AstProcessorTest(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[i]) #target_file_path(テストファイル)内のメソッド呼び出しをすべて取得
+
+    #     print(Testmethodcalls_list)
+    #     print('---------------------------------------------------------------------------------------------------------------------')
+    #     print(Productionmethods_list)
+    #     print('---------------------------------------------------------------------------------------------------------------------')
+    #     print(Testmethods_list)
+
 
     # production = open(r'AvaiProductionPaths.txt','r',encoding="utf-8_sig")
     # ProductionPath = production.readlines()
