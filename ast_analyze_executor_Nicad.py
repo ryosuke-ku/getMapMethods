@@ -45,11 +45,33 @@ if __name__ == '__main__':
     Productionmethods_list = AstProcessorProduction(None, BasicInfoListener()).execute(getNicadPath[0]) #プロダクションファイル内のメソッド名をすべて取得
     Testmethods_list = AstProcessorTest(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[0]) #target_file_path(テストファイル)内のメソッド呼び出しをすべて取得
 
-    print(Testmethodcalls_list)
-    print('---------------------------------------------------------------------------------------------------------------------')
+    # print(Testmethodcalls_list)
+    # print('---------------------------------------------------------------------------------------------------------------------')
     print(Productionmethods_list)
     print('---------------------------------------------------------------------------------------------------------------------')
     print(Testmethods_list)
+
+    # print(Testmethodcalls_list.keys())
+    # print(Testmethodcalls_list['testShouldAppendRecessivePluginGroupIds'])
+    cnt = 1
+    methodmapcall = defaultdict(list)
+    for k in Testmethodcalls_list:
+        # print(k)
+        for l in Testmethodcalls_list[k]:
+            for m in l:
+                methodcall = str(cnt) + ':' + m
+                # print(methodcall)
+                methodmapcall[methodcall].append(k)
+                cnt+=1
+
+
+    # print(methodmapcall)
+    # print(methodmapcall['137:clone.getRepositories()'][0])
+    rd = rdict(methodmapcall)
+    print(Productionmethods_list[0])
+    key = Productionmethods_list[0]
+    print(rd["^(?=.*" + key + ").*$"])
+
 
 
 
