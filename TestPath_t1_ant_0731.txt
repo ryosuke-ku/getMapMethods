@@ -1,0 +1,15 @@
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/image/ImageTest.java
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java
+ant/src/tests/junit/org/apache/tools/ant/types/selectors/PresentSelectorTest.java
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java
+ant/src/tests/junit/org/apache/tools/ant/types/XMLCatalogTest.java
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/net/FTPTest.java
+ant/src/tests/junit/org/apache/tools/ant/types/XMLCatalogTest.java
+ant/src/tests/junit/org/apache/tools/ant/types/MapperTest.java
+ant/src/tests/junit/org/apache/tools/ant/taskdefs/optional/PropertyFileTest.java

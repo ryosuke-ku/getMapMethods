@@ -1,0 +1,2689 @@
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/settings/SettingsUtils.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/test/java/org/apache/maven/settings/SettingsUtilsTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/profiles/ProfilesConversionUtils.java
+<Test Methods>
+testShouldAppendRecessivePluginGroupIds
+testRoundTripProfiles
+<Production Methods>
+convertFromSettingsProfile
+<Reusable Test Methods>
+testRoundTripProfiles
+testRoundTripProfiles
+1
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/settings/SettingsUtils.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/test/java/org/apache/maven/settings/SettingsUtilsTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/profiles/ProfilesConversionUtils.java
+<Test Methods>
+testShouldAppendRecessivePluginGroupIds
+testRoundTripProfiles
+<Production Methods>
+convertToSettingsProfile
+<Reusable Test Methods>
+testRoundTripProfiles
+2
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/execution/DefaultMavenExecutionRequestPopulator.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/test/java/org/apache/maven/execution/DefaultMavenExecutionRequestPopulatorTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-embedder/src/main/java/org/apache/maven/cli/configuration/SettingsXmlConfigurationProcessor.java
+<Test Methods>
+testPluginRepositoryInjection
+<Production Methods>
+populateFromSettings
+<Reusable Test Methods>
+testPluginRepositoryInjection
+3
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/project/path/DefaultPathTranslator.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/project/path/DefaultPathTranslatorTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/path/DefaultModelPathTranslator.java
+<Test Methods>
+testAlignToBasedirWhereBasedirExpressionIsTheCompleteValue
+testAlignToBasedirWhereBasedirExpressionIsTheValuePrefix
+testUnalignToBasedirWherePathEqualsBasedir
+<Production Methods>
+unalignFromBaseDirectory
+<Reusable Test Methods>
+testUnalignToBasedirWherePathEqualsBasedir
+4
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/project/path/DefaultPathTranslator.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/project/path/DefaultPathTranslatorTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/path/DefaultModelPathTranslator.java
+<Test Methods>
+testAlignToBasedirWhereBasedirExpressionIsTheCompleteValue
+testAlignToBasedirWhereBasedirExpressionIsTheValuePrefix
+testUnalignToBasedirWherePathEqualsBasedir
+<Production Methods>
+alignToBaseDirectory
+<Reusable Test Methods>
+testAlignToBasedirWhereBasedirExpressionIsTheCompleteValue
+testAlignToBasedirWhereBasedirExpressionIsTheValuePrefix
+5
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/repository/DefaultMirrorSelector.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/repository/DefaultMirrorSelectorTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/bridge/MavenRepositorySystem.java
+<Test Methods>
+testMirrorWithMirrorOfPatternContainingANegationIsNotSelected
+<Production Methods>
+matchPattern
+<Reusable Test Methods>
+testMirrorWithMirrorOfPatternContainingANegationIsNotSelected
+6
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/repository/DefaultMirrorSelector.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/repository/DefaultMirrorSelectorTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/bridge/MavenRepositorySystem.java
+<Test Methods>
+testMirrorWithMirrorOfPatternContainingANegationIsNotSelected
+<Production Methods>
+matchPattern
+<Reusable Test Methods>
+testMirrorWithMirrorOfPatternContainingANegationIsNotSelected
+7
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/execution/scope/internal/MojoExecutionScope.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/test/java/org/apache/maven/execution/scope/internal/MojoExecutionScopeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/session/scope/internal/SessionScope.java
+<Test Methods>
+testNestedEnter
+beforeMojoExecution
+afterMojoExecutionSuccess
+afterExecutionFailure
+get
+get
+testMultiKeyInstance
+<Production Methods>
+get
+<Reusable Test Methods>
+testNestedEnter
+testNestedEnter
+testNestedEnter
+testNestedEnter
+testNestedEnter
+testNestedEnter
+testNestedEnter
+testNestedEnter
+testNestedEnter
+afterExecutionFailure
+afterExecutionFailure
+get
+get
+get
+get
+get
+get
+get
+testMultiKeyInstance
+testMultiKeyInstance
+testMultiKeyInstance
+testMultiKeyInstance
+8
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-builder-support/src/main/java/org/apache/maven/building/DefaultProblem.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-builder-support/src/test/java/org/apache/maven/building/DefaultProblemTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-settings-builder/src/main/java/org/apache/maven/settings/building/DefaultSettingsProblem.java
+<Test Methods>
+testGetSeverity
+testGetLineNumber
+testGetColumnNumber
+testGetException
+testGetSource
+testGetLocation
+testGetMessage
+<Production Methods>
+getLocation
+<Reusable Test Methods>
+testGetLocation
+testGetLocation
+testGetLocation
+testGetLocation
+testGetLocation
+9
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/repository/legacy/LegacyRepositorySystem.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/repository/legacy/LegacyRepositorySystemTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/bridge/MavenRepositorySystem.java
+<Test Methods>
+customizeContainerConfiguration
+setUp
+tearDown
+testThatLocalRepositoryWithSpacesIsProperlyHandled
+testAuthenticationHandling
+<Production Methods>
+getAuthentication
+<Reusable Test Methods>
+testAuthenticationHandling
+10
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-builder-support/src/main/java/org/apache/maven/building/DefaultProblem.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-builder-support/src/test/java/org/apache/maven/building/DefaultProblemTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/DefaultModelProblem.java
+<Test Methods>
+testGetSeverity
+testGetLineNumber
+testGetColumnNumber
+testGetException
+testGetSource
+testGetLocation
+testGetMessage
+<Production Methods>
+getMessage
+<Reusable Test Methods>
+testGetMessage
+testGetMessage
+testGetMessage
+11
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-builder-support/src/main/java/org/apache/maven/building/DefaultProblem.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-builder-support/src/test/java/org/apache/maven/building/DefaultProblemTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-settings-builder/src/main/java/org/apache/maven/settings/building/DefaultSettingsProblem.java
+<Test Methods>
+testGetSeverity
+testGetLineNumber
+testGetColumnNumber
+testGetException
+testGetSource
+testGetLocation
+testGetMessage
+<Production Methods>
+getMessage
+<Reusable Test Methods>
+testGetMessage
+testGetMessage
+testGetMessage
+12
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/InversionArtifactFilter.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+13
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/TypeArtifactFilter.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+14
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelPool.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+15
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelCache.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+16
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/DefaultProjectRealmCache.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+17
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginRealmCache.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+18
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginDescriptorCache.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+19
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginArtifactsCache.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+20
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultExtensionRealmCache.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+21
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ScopeArtifactFilter.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+22
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ExclusionSetFilter.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+23
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/CumulativeScopeArtifactFilter.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+24
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/VersionRange.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/VersionRangeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/AndArtifactFilter.java
+<Test Methods>
+testRange
+testInvalidRanges
+testIntersections
+testReleaseRangeBoundsContainsSnapshots
+testSnapshotRangeBoundsCanContainSnapshots
+testSnapshotSoftVersionCanContainSnapshot
+checkInvalidRange
+testContains
+enforceVersion
+testOrder0
+testCache
+<Production Methods>
+equals
+<Reusable Test Methods>
+testCache
+25
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Methods>
+Error
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/InversionArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+26
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/TypeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+27
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/ArtifactStatus.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+28
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-resolver-provider/src/main/java/org/apache/maven/repository/internal/DefaultModelCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+29
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelPool.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+30
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+31
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/DefaultProjectRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+32
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+33
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginDescriptorCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+34
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginArtifactsCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+35
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultExtensionRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+36
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ScopeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+37
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/IncludesArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+38
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ExclusionSetFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+39
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/CumulativeScopeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+40
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/AndArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+41
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/InversionArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+42
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/TypeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+43
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/ArtifactStatus.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+44
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-resolver-provider/src/main/java/org/apache/maven/repository/internal/DefaultModelCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+45
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelPool.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+46
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+47
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/DefaultProjectRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+48
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+49
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginDescriptorCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+50
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginArtifactsCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+51
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultExtensionRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+52
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ScopeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+53
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/IncludesArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+54
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ExclusionSetFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+55
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/CumulativeScopeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+56
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/AndArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+57
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/InversionArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+58
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/TypeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+59
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/ArtifactStatus.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+60
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-resolver-provider/src/main/java/org/apache/maven/repository/internal/DefaultModelCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+61
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelPool.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+62
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+63
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/DefaultProjectRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+64
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+65
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginDescriptorCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+66
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginArtifactsCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+67
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultExtensionRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+68
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ScopeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+69
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/IncludesArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+70
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ExclusionSetFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+71
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/CumulativeScopeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+72
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/AndArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+73
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/InversionArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+74
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/TypeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+75
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/ArtifactStatus.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+76
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-resolver-provider/src/main/java/org/apache/maven/repository/internal/DefaultModelCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+77
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelPool.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+78
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+79
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/DefaultProjectRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+80
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+81
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginDescriptorCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+82
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginArtifactsCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+83
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultExtensionRealmCache.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+84
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ScopeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+85
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/IncludesArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+86
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ExclusionSetFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+87
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/CumulativeScopeArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+88
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/main/java/org/apache/maven/artifact/versioning/ComparableVersion.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-artifact/src/test/java/org/apache/maven/artifact/versioning/ComparableVersionTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/AndArtifactFilter.java
+<Test Methods>
+newComparable
+checkVersionsOrder
+checkVersionsEqual
+checkVersionsArrayEqual
+checkVersionsOrder
+testVersionsQualifier
+testVersionsNumber
+testVersionsEqual
+testVersionComparing
+testMng5568
+testMng6572
+testVersionEqualWithLeadingZeroes
+testVersionZeroEqualWithLeadingZeroes
+testLocaleIndependent
+testReuse
+<Production Methods>
+equals
+<Reusable Test Methods>
+checkVersionsEqual
+checkVersionsEqual
+89
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/InversionArtifactFilter.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+90
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/InversionArtifactFilter.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+91
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/TypeArtifactFilter.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+92
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/ArtifactStatus.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+93
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-resolver-provider/src/main/java/org/apache/maven/repository/internal/DefaultModelCache.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+94
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelPool.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+95
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelCache.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+96
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/DefaultProjectRealmCache.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+97
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginRealmCache.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+98
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginDescriptorCache.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+99
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginArtifactsCache.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+100
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultExtensionRealmCache.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+101
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ScopeArtifactFilter.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+102
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/IncludesArtifactFilter.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+103
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ExclusionSetFilter.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+104
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/CumulativeScopeArtifactFilter.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+105
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilter.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/test/java/org/apache/maven/artifact/resolver/filter/OrArtifactFilterTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/AndArtifactFilter.java
+<Test Methods>
+include
+newSubFilter
+testEquals
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+106
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/resolver/filter/TypeArtifactFilter.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+107
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-compat/src/main/java/org/apache/maven/artifact/ArtifactStatus.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+108
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-resolver-provider/src/main/java/org/apache/maven/repository/internal/DefaultModelCache.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+109
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelPool.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+110
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/ReactorModelCache.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+111
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/project/DefaultProjectRealmCache.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+112
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginRealmCache.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+113
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginDescriptorCache.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+114
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultPluginArtifactsCache.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+115
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/plugin/DefaultExtensionRealmCache.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+116
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ScopeArtifactFilter.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+117
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/IncludesArtifactFilter.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+118
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/ExclusionSetFilter.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+119
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/CumulativeScopeArtifactFilter.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+120
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/main/java/org/apache/maven/model/building/FileModelSource.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-model-builder/src/test/java/org/apache/maven/model/building/FileModelSourceTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/artifact/resolver/filter/AndArtifactFilter.java
+<Test Methods>
+testEquals
+testWindowsPaths
+createTempFile
+<Production Methods>
+equals
+<Reusable Test Methods>
+testEquals
+testEquals
+testEquals
+testEquals
+testWindowsPaths
+121
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<Production Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/execution/scope/internal/MojoExecutionScope.java
+<Test Code Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/test/java/org/apache/maven/execution/scope/internal/MojoExecutionScopeTest.java
+<Clone Pairs Path> C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/maven/maven-core/src/main/java/org/apache/maven/session/scope/internal/SessionScope.java
+<Test Methods>
+testNestedEnter
+beforeMojoExecution
+afterMojoExecutionSuccess
+afterExecutionFailure
+get
+get
+testMultiKeyInstance
+<Production Methods>
+exit
+<Reusable Test Methods>
+testNestedEnter
+testNestedEnter
+testNestedEnter
+get
+testMultiKeyInstance
+122
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+hastest : 122(36.2)
+notest : 214(63.5)
+nodetect : 1(0.3)
+Total : 337

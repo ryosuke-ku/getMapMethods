@@ -1,0 +1,12 @@
+maven/maven-compat/src/test/java/org/apache/maven/repository/legacy/LegacyRepositorySystemTest.java
+maven/maven-compat/src/test/java/org/apache/maven/repository/legacy/LegacyRepositorySystemTest.java
+maven/maven-compat/src/test/java/org/apache/maven/repository/DefaultMirrorSelectorTest.java
+maven/maven-builder-support/src/test/java/org/apache/maven/building/DefaultProblemTest.java
+maven/maven-core/src/test/java/org/apache/maven/execution/scope/internal/MojoExecutionScopeTest.java
+maven/maven-compat/src/test/java/org/apache/maven/repository/legacy/LegacyRepositorySystemTest.java
+maven/maven-compat/src/test/java/org/apache/maven/repository/legacy/LegacyRepositorySystemTest.java
+maven/maven-builder-support/src/test/java/org/apache/maven/building/DefaultProblemTest.java
+maven/maven-builder-support/src/test/java/org/apache/maven/building/DefaultProblemTest.java
+maven/maven-compat/src/test/java/org/apache/maven/repository/legacy/LegacyRepositorySystemTest.java
+maven/maven-compat/src/test/java/org/apache/maven/repository/legacy/LegacyRepositorySystemTest.java
+maven/maven-embedder/src/test/java/org/apache/maven/cli/MavenCliTest.java
