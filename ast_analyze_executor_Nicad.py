@@ -125,7 +125,8 @@ if __name__ == '__main__':
         NicadTestPath = NicadTest.readlines()
         NtPath = [Ntline.replace('\n', '') for Ntline in NicadTestPath]
         cc = int(len(NtPath)/2)
-        print(cc)
+        # print(cc)
+
         NicadFiles = defaultdict(list)
         c = 1
         for i in range(cc):
@@ -134,18 +135,165 @@ if __name__ == '__main__':
             NicadFiles['Clone Pairs ' + str(i+1)].append('C:/Users/ryosuke-ku/Desktop/SCRAPING/Method_Scraping/xml_scraping/NicadOutputFile_' + t + '_' + projectname + '/Clone Pairs ' + str(i+1) + '/Nicad_' + t + '_' + projectname + str(c) + '.java')
             c += 1
     
-        print(NicadFiles)
+        # print(NicadFiles)
 
+        tc1 = 0
+        tc2 = 1
+        nt = 0
+        ot = 0
+        tt = 0 
         for x in NicadFiles:
-            print(x)
+            
             path1 = NicadFiles[x][0]
-            # print(NicadFiles[x][0])
-            Productionmethods_list1 = AstProcessorProduction(None, BasicInfoListener()).execute(path1) #target_file_path(テストファイル)内のメソッド名をすべて取得
-            print(Productionmethods_list1)
             path2 = NicadFiles[x][1]
-            # print(NicadFiles[x][1])
+
+            Productionmethods_list1 = AstProcessorProduction(None, BasicInfoListener()).execute(path1) #target_file_path(テストファイル)内のメソッド名をすべて取得
             Productionmethods_list2 = AstProcessorProduction(None, BasicInfoListener()).execute(path2) #target_file_path(テストファイル)内のメソッド名をすべて取得
-            print(Productionmethods_list2)
+            
+
+            file = open(NicadFiles[x][0],'r')
+            line = file.readline()
+            line2 = file.readline()
+
+            # print('① ' + Productionmethods_list1[0])
+
+            Testmethodcalls1 = AstProcessorTestMethodCall(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc1])
+
+            cnt = 1
+            methodmapcall1 = defaultdict(list)
+            for k in Testmethodcalls1:
+                for l in Testmethodcalls1[k]:
+                    for m in l:
+                        methodcall = str(cnt) + ':' + m
+                        methodmapcall1[methodcall] = k
+                        cnt+=1
+
+            # print(methodmapcall1)
+
+
+            rd = rdict(methodmapcall1)
+        
+            try:
+                key = Productionmethods_list1[0]
+                retmethods = rd["^(?=.*" + key + ").*$"]
+                if len(retmethods) == 0:
+                    j1 = 0
+                    # print('No Test')
+                else:
+                    j1 = 1
+                    # print('Has Test')
+
+            except IndexError:
+                print('<Production Methods>')
+                print('Error')
+                pass
+
+            tc1 += 2
+
+            file = open(NicadFiles[x][1],'r')
+            line = file.readline()
+            line2 = file.readline()
+
+            # print('② ' + Productionmethods_list2[0])
+            Testmethodcalls2 = AstProcessorTestMethodCall(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc2])
+
+            cnt = 1
+            methodmapcall2 = defaultdict(list)
+            for k in Testmethodcalls2:
+                for l in Testmethodcalls2[k]:
+                    for m in l:
+                        methodcall = str(cnt) + ':' + m
+                        methodmapcall2[methodcall] = k
+                        cnt+=1
+
+            # print(methodmapcall2)
+
+
+            rd = rdict(methodmapcall2)
+        
+            try:
+                key = Productionmethods_list2[0]
+                retmethods2 = rd["^(?=.*" + key + ").*$"]
+                if len(retmethods2) == 0:
+                    j2 = 0
+                    # print('No Test')
+                else:
+                    j2 = 1
+                    # print('Has Test')
+                    
+            except IndexError:
+                print('<Production Methods>')
+                print('Error')
+                pass
+
+            tc2 += 2
+
+            if j1 ==0 and j2 ==0:
+                nt += 1
+            
+            if j1 ==0 and j2 ==1:
+                print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
+                print(x)
+                print('① ' + Productionmethods_list1[0])
+                print('No Test')
+                print('② ' + Productionmethods_list2[0])
+                print('Has Test')
+                print(line2[2:].replace('\n',''))
+                print(('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc2]))
+                print(retmethods)
+                ot += 1
+            
+            if j1 ==1 and j2 ==0:
+                print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
+                print(x)
+                print('① ' + Productionmethods_list1[0])
+                print('Has Test')
+                print(line2[2:].replace('\n',''))
+                print(('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc1]))
+                print(retmethods)
+                print('② ' + Productionmethods_list2[0])
+                print('No Test')
+                ot += 1
+            
+            if j1 ==1 and j2 ==1:
+                print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
+                print('<' + x + '>')
+                print('① ' + Productionmethods_list1[0])
+                print('Has Test')
+                print(line2[2:].replace('\n',''))
+                print(('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc1]))
+                print(retmethods)
+                print('② ' + Productionmethods_list2[0])
+                print('Has Test')
+                print(line2[2:].replace('\n',''))
+                print(('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc2]))
+                print(retmethods)
+                tt += 1
+
+        print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
+        print('onetest : ' + str(ot) + '(' + str(round(ot/(ot + nt + tt)*100,1)) + ')')
+        print('notest : ' + str(nt)  + '(' + str(round(nt/(ot + nt + tt)*100,1)) + ')')
+        print('twotest : ' + str(tt)  + '(' + str(round(tt/(ot + nt + tt)*100,1)) + ')')
+        print('Total : ' + str(ot + nt + tt))
+
+
+            # print(Productionmethods_list1)
+            # print(Testmethodcalls1.keys()) 
+            # print(Productionmethods_list2)
+            # print(Testmethodcalls2.keys())
+            
+
+            # cnt = 1
+            # methodmapcall = defaultdict(list)
+            # for k in Testmethodcalls:
+            #     # print(k)
+            #     for l in Testmethodcalls[k]:
+            #         for m in l:
+            #             methodcall = str(cnt) + ':' + m
+            #             # print(methodcall)
+            #             methodmapcall[methodcall].append(k)
+            #             cnt+=1
+
 
 
         # getNicadPath = []
