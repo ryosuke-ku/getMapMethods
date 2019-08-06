@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     def ClonePairwithOneTest():
         t = 't1'
-        projectname = 'maven_new'
+        projectname = 'kafka_consistest'
 
         NicadTest = open(r'TestPath_' + t + '_' + projectname + '.txt','r',encoding="utf-8_sig")
         NicadTestPath = NicadTest.readlines()
@@ -119,7 +119,7 @@ if __name__ == '__main__':
     
     def ClonePairwithTwoTest():
         t = 't2'
-        projectname = 'maven_friday6'
+        projectname = 'maven'
 
         NicadTest = open(r'TestPath_' + t + '_' + projectname + '.txt','r',encoding="utf-8_sig")
         NicadTestPath = NicadTest.readlines()
@@ -169,7 +169,7 @@ if __name__ == '__main__':
                         cnt+=1
 
             # print(methodmapcall1)
-
+            tp1 = 'C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc2]
 
             rd = rdict(methodmapcall1)
         
@@ -208,7 +208,7 @@ if __name__ == '__main__':
 
             # print(methodmapcall2)
 
-
+            tp2 = 'C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc2]
             rd = rdict(methodmapcall2)
         
             try:
@@ -239,7 +239,7 @@ if __name__ == '__main__':
                 print('② ' + Productionmethods_list2[0])
                 print('Has Test')
                 print(line2[2:].replace('\n',''))
-                print(('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc2]))
+                print(tp2)
                 print(retmethods)
                 ot += 1
             
@@ -249,7 +249,7 @@ if __name__ == '__main__':
                 print('① ' + Productionmethods_list1[0])
                 print('Has Test')
                 print(line2[2:].replace('\n',''))
-                print(('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc1]))
+                print(tp1)
                 print(retmethods)
                 print('② ' + Productionmethods_list2[0])
                 print('No Test')
@@ -261,12 +261,12 @@ if __name__ == '__main__':
                 print('① ' + Productionmethods_list1[0])
                 print('Has Test')
                 print(line2[2:].replace('\n',''))
-                print(('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc1]))
+                print(tp1)
                 print(retmethods)
                 print('② ' + Productionmethods_list2[0])
                 print('Has Test')
                 print(line2[2:].replace('\n',''))
-                print(('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc2]))
+                print(tp2)
                 print(retmethods)
                 tt += 1
 
@@ -276,106 +276,5 @@ if __name__ == '__main__':
         print('twotest : ' + str(tt)  + '(' + str(round(tt/(ot + nt + tt)*100,1)) + ')')
         print('Total : ' + str(ot + nt + tt))
 
-
-            # print(Productionmethods_list1)
-            # print(Testmethodcalls1.keys()) 
-            # print(Productionmethods_list2)
-            # print(Testmethodcalls2.keys())
-            
-
-            # cnt = 1
-            # methodmapcall = defaultdict(list)
-            # for k in Testmethodcalls:
-            #     # print(k)
-            #     for l in Testmethodcalls[k]:
-            #         for m in l:
-            #             methodcall = str(cnt) + ':' + m
-            #             # print(methodcall)
-            #             methodmapcall[methodcall].append(k)
-            #             cnt+=1
-
-
-
-        # getNicadPath = []
-        # for n in range(len(NtPath)):
-        #     name = 'C:/Users/ryosuke-ku/Desktop/SCRAPING/Method_Scraping/xml_scraping/NicadOutputFile_' + t + '_' + projectname + '/Clone Pairs '+ str(n+1) +'/Nicad_' + t + '_' + projectname + str(n+1) + '.java'
-        #     getNicadPath.append(name)
-
-        # notest = 0
-        # hastest = 0
-        # nodetect = 0
-        # count = 0
-        # for i in range(len(NtPath)): 
-        #     Testmethodcalls_list = AstProcessorTestMethodCall(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[i]) #target_file_path(テストファイル)内のメソッド名をすべて取得
-        #     Productionmethods_list = AstProcessorProduction(None, BasicInfoListener()).execute(getNicadPath[i]) #プロダクションファイル内のメソッド名をすべて取得
-        #     Testmethods_list = AstProcessorTest(None, BasicInfoListener()).execute('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[i]) #target_file_path(テストファイル)内のメソッド呼び出しをすべて取得
-
-        #     file = open(getNicadPath[i],'r')
-        #     line = file.readline()
-        #     line2 = file.readline()
-            # print('<Production Code Path> ' + line2[2:].replace('\n',''))
-
-            # # print('<プロダクションコードPath>' + getNicadPath[i])
-            # print('<Test Code Path> ' + 'C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[i])
-            # print('<Clone Pairs Path> ' + line[2:].replace('\n',''))
-            # print('<Test Methods>')
-            # # print(Testmethods_list)
-            # for t in Testmethods_list:
-            #     print(t)
-
-        #     cnt = 1
-        #     methodmapcall = defaultdict(list)
-        #     for k in Testmethodcalls_list:
-        #         # print(k)
-        #         for l in Testmethodcalls_list[k]:
-        #             for m in l:
-        #                 methodcall = str(cnt) + ':' + m
-        #                 # print(methodcall)
-        #                 methodmapcall[methodcall].append(k)
-        #                 cnt+=1
-
-        #     rd = rdict(methodmapcall)
-        
-        #     try:
-        #         key = Productionmethods_list[0]
-        #         # print('<Production Methods>')
-        #         # print(key)
-        #         # print('<Reusable Test Methods>')
-        #         # print(rd["^(?=.*" + key + ").*$"])
-        #         # print(len(rd["^(?=.*" + key + ").*$"]))
-        #         retmethods = rd["^(?=.*" + key + ").*$"]
-        #         if len(rd["^(?=.*" + key + ").*$"]) == 0:
-        #             notest += 1
-        #         else:
-        #             hastest += 1
-        #             print('<Production Code Path> ' + line2[2:].replace('\n',''))
-        #             # print('<プロダクションコードPath>' + getNicadPath[i])
-        #             print('<Test Code Path> ' + 'C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[i])
-        #             print('<Clone Pairs Path> ' + line[2:].replace('\n',''))
-        #             print('<Test Methods>')
-        #             # print(Testmethods_list)
-        #             for t in Testmethods_list:
-        #                 print(t)
-        #             print('<Production Methods>')
-        #             print(key)
-        #             print('<Reusable Test Methods>')
-        #             for w in retmethods:
-        #                 print(w[0])
-        #             # print(rd["^(?=.*" + key + ").*$"])
-        #             print(hastest)
-        #             print('-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
-
-        #     except IndexError:
-        #         print('<Production Methods>')
-        #         print('Error')
-        #         nodetect += 1
-        #         pass
-            
-        #     count += 1
-        
-        # print('hastest : ' + str(hastest) + '(' + str(round(hastest/count*100,1)) + ')')
-        # print('notest : ' + str(notest)  + '(' + str(round(notest/count*100,1)) + ')')
-        # print('nodetect : ' + str(nodetect)  + '(' + str(round(nodetect/count*100,1)) + ')')
-        # print('Total : ' + str(count))
 
     ClonePairwithTwoTest()
