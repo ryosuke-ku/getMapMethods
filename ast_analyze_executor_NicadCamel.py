@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
     def ClonePairwithOneTest():
         t = 't1'
-        projectname = 'maven88'
+        projectname = 'kafaka89'
 
         NicadTest = open(r'TestPath_' + t + '_' + projectname + '.txt','r',encoding="utf-8_sig")
         NicadTestPath = NicadTest.readlines()
@@ -71,7 +71,8 @@ if __name__ == '__main__':
                         cnt+=1
 
             rd = rdict(methodmapcall)
-        
+            words = []
+            reusetest1 = []
             try:
                 key = Productionmethods_list[0]
                 # print('<Production Methods>')
@@ -83,23 +84,50 @@ if __name__ == '__main__':
                 if len(rd["^(?=.*" + key + ").*$"]) == 0:
                     notest += 1
                 else:
-                    hastest += 1
-                    print('<Production Code Path> ' + line2[2:].replace('\n',''))
-                    # print('<プロダクションコードPath>' + getNicadPath[i])
-                    print('<Test Code Path> ' + 'C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[i])
-                    print('<Clone Pairs Path> ' + line[2:].replace('\n',''))
-                    print('<Test Methods>')
-                    # print(Testmethods_list)
-                    for t in Testmethods_list:
-                        print(t)
-                    print('<Production Methods>')
-                    print(key)
-                    print('<Reusable Test Methods>')
-                    for w in retmethods:
-                        print(w[0])
-                    # print(rd["^(?=.*" + key + ").*$"])
-                    print(hastest)
-                    print('-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
+                    for o in re.split('([a-z]+)([A-Z][a-z]+)|([A-Z][a-z]+)', key):
+                        if o != None and o != '':
+                            words.append(o)
+        
+                    # print(words)
+                    # print(retmethods)
+                    for i in words:
+                        # print(i.lower())
+                        for j in retmethods:
+                            if i.lower() in j[0].lower():
+                                reusetest1.append(j[0])
+                            #     j1 = 1
+                            # else:
+                            #     j1 = 0
+                        
+                    if len(reusetest1) != 0:
+                        hastest += 1
+                    else:
+                        notest += 1
+
+                rt1 = list(set(reusetest1))
+                print(rt1)
+
+
+
+
+
+                    # hastest += 1
+                    # print('<Production Code Path> ' + line2[2:].replace('\n',''))
+                    # # print('<プロダクションコードPath>' + getNicadPath[i])
+                    # print('<Test Code Path> ' + 'C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[i])
+                    # print('<Clone Pairs Path> ' + line[2:].replace('\n',''))
+                    # print('<Test Methods>')
+                    # # print(Testmethods_list)
+                    # for t in Testmethods_list:
+                    #     print(t)
+                    # print('<Production Methods>')
+                    # print(key)
+                    # print('<Reusable Test Methods>')
+                    # for w in retmethods:
+                    #     print(w[0])
+                    # # print(rd["^(?=.*" + key + ").*$"])
+                    # print(hastest)
+                    # print('-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
 
             except IndexError:
                 print('<Production Methods>')
@@ -119,7 +147,7 @@ if __name__ == '__main__':
     
     def ClonePairwithTwoTest():
         t = 't2'
-        projectname = 'kylin'
+        projectname = 'kafka'
 
         NicadTest = open(r'TestPath_' + t + '_' + projectname + '.txt','r',encoding="utf-8_sig")
         NicadTestPath = NicadTest.readlines()
@@ -170,7 +198,7 @@ if __name__ == '__main__':
                         cnt+=1
 
             # print(methodmapcall1)
-            tp1 = 'C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc2]
+            tp1 = 'C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + NtPath[tc1]
 
             rd = rdict(methodmapcall1)
             words = []
@@ -274,57 +302,62 @@ if __name__ == '__main__':
                 # print('Error')
                 pass
             
-            print('------------------------------------------------------------------------------------------------------------')
+            # print('------------------------------------------------------------------------------------------------------------')
 
             tc2 += 2
-
-            if j1 ==0 and j2 ==0:
-                nt += 1
-            
-            if j1 ==0 and j2 ==1:
-                # print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
-                # print(x)
-                # print('① ' + Productionmethods_list1[0])
-                # print('No Test')
-                # print('② ' + Productionmethods_list2[0])
-                # print('Has Test')
-                # print(line2_1[2:].replace('\n',''))
-                # print(line2_2[2:].replace('\n',''))
-                # print(tp2)
-                # print(retmethods2)
-                ot += 1
-            
-            if j1 ==1 and j2 ==0:
-                # print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
-                # print(x)
-                # print('① ' + Productionmethods_list1[0])
-                # print('Has Test')
-                # print(line1_1[2:].replace('\n',''))
-                # print(line1_2[2:].replace('\n',''))
-                # print(tp1)
-                # print(retmethods)
-                # print('② ' + Productionmethods_list2[0])
-                # print('No Test')
-                ot += 1
-            
-            if j1 ==1 and j2 ==1:
-                print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
-                print('<' + x + '>')
-                print('① ' + Productionmethods_list1[0])
-                print('Has Test')
-                print(line1_1[2:].replace('\n',''))
-                print('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + LINE1.replace('\n',''))
-                print(tp1)
-                # print(retmethods)
-                print(rt1)
-                print('② ' + Productionmethods_list2[0])
-                print('Has Test')
-                print(line2_1[2:].replace('\n',''))
-                print('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + LINE2.replace('\n',''))
-                print(tp2)
-                # print(retmethods2)
-                print(rt2)
-                tt += 1
+            try:
+                if j1 ==0 and j2 ==0:
+                    nt += 1
+                
+                if j1 ==0 and j2 ==1:
+                    # print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
+                    # print(x)
+                    # print('① ' + Productionmethods_list1[0])
+                    # print('No Test')
+                    # print('② ' + Productionmethods_list2[0])
+                    # print('Has Test')
+                    # print(line2_1[2:].replace('\n',''))
+                    # print(line2_2[2:].replace('\n',''))
+                    # print(tp2)
+                    # print(retmethods2)
+                    ot += 1
+                
+                if j1 ==1 and j2 ==0:
+                    # print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
+                    # print(x)
+                    # print('① ' + Productionmethods_list1[0])
+                    # print('Has Test')
+                    # print(line1_1[2:].replace('\n',''))
+                    # print(line1_2[2:].replace('\n',''))
+                    # print(tp1)
+                    # print(retmethods)
+                    # print('② ' + Productionmethods_list2[0])
+                    # print('No Test')
+                    ot += 1
+                
+                if j1 ==1 and j2 ==1:
+                    print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
+                    print('<' + x + '>')
+                    print('① ' + Productionmethods_list1[0])
+                    print('Has Test')
+                    print(line1_1[2:].replace('\n',''))
+                    print('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + LINE1.replace('\n',''))
+                    print(tp1)
+                    # print(retmethods)
+                    print(rt1)
+                    print(len(rt1))
+                    print('② ' + Productionmethods_list2[0])
+                    print('Has Test')
+                    print(line2_1[2:].replace('\n',''))
+                    print('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + LINE2.replace('\n',''))
+                    print(tp2)
+                    # print(retmethods2)
+                    print(rt2)
+                    print(len(rt2))
+                    tt += 1
+                
+            except IndexError:
+                pass
 
         print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
         print('onetest : ' + str(ot) + '(' + str(round(ot/(ot + nt + tt)*100,1)) + ')')
