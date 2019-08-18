@@ -349,7 +349,6 @@ if __name__ == '__main__':
                     similarity = line1_1[14:].replace('\n','')
                     similarity2 = similarity[similarity.find(':')+1:]
                     sheet1.write(excelnum, 1, similarity2[:similarity2.find(':')])
-                    excelnum += 1
                     print('① ' + Productionmethods_list1[0])
                     sheet1.write(excelnum, 2, Productionmethods_list1[0])
                     print('Has Test')
@@ -369,6 +368,7 @@ if __name__ == '__main__':
                     print(rt2)
                     print(len(rt2))
                     tt += 1
+                    excelnum += 1
                 
             except IndexError:
                 pass
