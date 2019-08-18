@@ -7,6 +7,9 @@ import glob
 import re
 import os
 from collections import defaultdict
+import xlwt
+ 
+
 
 class rdict(dict):
     def __getitem__(self, key):
@@ -147,7 +150,10 @@ if __name__ == '__main__':
     
     def ClonePairwithTwoTest():
         t = 't2'
-        projectname = 'kafka'
+        projectname = 'maven'
+
+        book = xlwt.Workbook()
+        sheet1 = book.add_sheet('sheet1')
 
         NicadTest = open(r'TestPath_' + t + '_' + projectname + '.txt','r',encoding="utf-8_sig")
         NicadTestPath = NicadTest.readlines()
@@ -170,6 +176,7 @@ if __name__ == '__main__':
         nt = 0
         ot = 0
         tt = 0 
+        excelnum = 0
         for x in NicadFiles:
             
             path1 = NicadFiles[x][0]
@@ -338,6 +345,11 @@ if __name__ == '__main__':
                 if j1 ==1 and j2 ==1:
                     print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
                     print('<' + x + '>')
+                    sheet1.write(excelnum, 0, '<' + x + '>')
+                    similarity = line1_1[14:].replace('\n','')
+                    similarity2 = similarity[similarity.find(':')+1:]
+                    sheet1.write(excelnum, 1, similarity2[:similarity2.find(':')])
+                    excelnum += 1
                     print('① ' + Productionmethods_list1[0])
                     print('Has Test')
                     print(line1_1[2:].replace('\n',''))
@@ -364,6 +376,6 @@ if __name__ == '__main__':
         print('notest : ' + str(nt)  + '(' + str(round(nt/(ot + nt + tt)*100,1)) + ')')
         print('twotest : ' + str(tt)  + '(' + str(round(tt/(ot + nt + tt)*100,1)) + ')')
         print('Total : ' + str(ot + nt + tt))
-
+        book.save('test.xls')
 
     ClonePairwithTwoTest()
