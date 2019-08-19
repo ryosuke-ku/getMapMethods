@@ -150,7 +150,7 @@ if __name__ == '__main__':
     
     def ClonePairwithTwoTest():
         t = 't2'
-        projectname = 'maven'
+        projectname = 'kafka'
 
         book = xlwt.Workbook()
         sheet1 = book.add_sheet('sheet1')
@@ -342,15 +342,17 @@ if __name__ == '__main__':
                     # print('No Test')
                     ot += 1
                 
-                if j1 ==1 and j2 ==1:
+                if j1 ==1 and j2 ==1 and x!= 'Clone Pairs 47' and x!= 'Clone Pairs 61' and x!= 'Clone Pairs 127' and x!= 'Clone Pairs 129':
                     print('--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------')
                     print('<' + x + '>')
                     sheet1.write(excelnum, 0, '<' + x + '>')
                     similarity = line1_1[14:].replace('\n','')
                     similarity2 = similarity[similarity.find(':')+1:]
                     sheet1.write(excelnum, 1, similarity2[:similarity2.find(':')])
-                    print('① ' + Productionmethods_list1[0])
                     sheet1.write(excelnum, 2, Productionmethods_list1[0])
+                    sheet1.write(excelnum, 3, Productionmethods_list2[0])
+                    excelnum += 1
+                    print('① ' + Productionmethods_list1[0])
                     print('Has Test')
                     print(line1_1[2:].replace('\n',''))
                     print('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + LINE1.replace('\n',''))
@@ -359,7 +361,6 @@ if __name__ == '__main__':
                     print(rt1)
                     print(len(rt1))
                     print('② ' + Productionmethods_list2[0])
-                    sheet1.write(excelnum, 3, Productionmethods_list2[0])
                     print('Has Test')
                     print(line2_1[2:].replace('\n',''))
                     print('C:/Users/ryosuke-ku/Desktop/NiCad-5.1/systems/' + LINE2.replace('\n',''))
@@ -368,7 +369,7 @@ if __name__ == '__main__':
                     print(rt2)
                     print(len(rt2))
                     tt += 1
-                    excelnum += 1
+                    
                 
             except IndexError:
                 pass
@@ -378,6 +379,6 @@ if __name__ == '__main__':
         print('notest : ' + str(nt)  + '(' + str(round(nt/(ot + nt + tt)*100,1)) + ')')
         print('twotest : ' + str(tt)  + '(' + str(round(tt/(ot + nt + tt)*100,1)) + ')')
         print('Total : ' + str(ot + nt + tt))
-        book.save('test.xls')
+        book.save('kafka_t2.xls')
 
     ClonePairwithTwoTest()
